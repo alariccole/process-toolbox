@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0F9420152C8AAC000B5129 /* canon-5DMarkIII.cr2 in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F941F152C8AA9000B5129 /* canon-5DMarkIII.cr2 */; };
+		6D6E747C153014B0008B34F1 /* RAW_LEICA_VLUX1.RAW in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E747B153014B0008B34F1 /* RAW_LEICA_VLUX1.RAW */; };
+		6D6E747E15301550008B34F1 /* s3pro_007785.raf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E747D15301550008B34F1 /* s3pro_007785.raf */; };
+		6D6E7480153015D3008B34F1 /* nikond200.NEF in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E747F153015D3008B34F1 /* nikond200.NEF */; };
+		6D6E7482153018B9008B34F1 /* testpattern.DNG in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E7481153018B9008B34F1 /* testpattern.DNG */; };
+		6D6E74841530194A008B34F1 /* adobe.DNG in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E74831530194A008B34F1 /* adobe.DNG */; };
+		6DD0FAD31530081100FA692C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0FAD21530081100FA692C /* Storyboard.storyboard */; };
+		A63D3C52152C33710035EDC0 /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A63D3C51152C33710035EDC0 /* libraw.a */; };
+		A6729DC415389C40004EB3FE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6729DC315389C40004EB3FE /* AssetsLibrary.framework */; };
+		A6729DC615389C96004EB3FE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6729DC515389C96004EB3FE /* ImageIO.framework */; };
+		A6729DC91538A5FC004EB3FE /* Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = A6729DC81538A5FC004EB3FE /* Metadata.m */; };
+		A6BE0C671528DCC000EE500E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE0C661528DCC000EE500E /* UIKit.framework */; };
+		A6BE0C691528DCC000EE500E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE0C681528DCC000EE500E /* Foundation.framework */; };
+		A6BE0C6B1528DCC000EE500E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE0C6A1528DCC000EE500E /* CoreGraphics.framework */; };
+		A6BE0C711528DCC000EE500E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6BE0C6F1528DCC000EE500E /* InfoPlist.strings */; };
+		A6BE0C731528DCC000EE500E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0C721528DCC000EE500E /* main.m */; };
+		A6BE0C771528DCC000EE500E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0C761528DCC000EE500E /* AppDelegate.m */; };
+		A6BE0C7A1528DCC000EE500E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0C791528DCC000EE500E /* ViewController.m */; };
+		A6BE0C9315296AE500EE500E /* RAW.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0C9215296AE500EE500E /* RAW.mm */; };
+		A6BE0D0415298BF300EE500E /* RAW_NIKON_D1.NEF in Resources */ = {isa = PBXBuildFile; fileRef = A6BE0D0215298BF300EE500E /* RAW_NIKON_D1.NEF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D0F941F152C8AA9000B5129 /* canon-5DMarkIII.cr2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "canon-5DMarkIII.cr2"; sourceTree = "<group>"; };
+		6D6E747B153014B0008B34F1 /* RAW_LEICA_VLUX1.RAW */ = {isa = PBXFileReference; lastKnownFileType = file; path = RAW_LEICA_VLUX1.RAW; sourceTree = "<group>"; };
+		6D6E747D15301550008B34F1 /* s3pro_007785.raf */ = {isa = PBXFileReference; lastKnownFileType = file; path = s3pro_007785.raf; sourceTree = "<group>"; };
+		6D6E747F153015D3008B34F1 /* nikond200.NEF */ = {isa = PBXFileReference; lastKnownFileType = file; path = nikond200.NEF; sourceTree = "<group>"; };
+		6D6E7481153018B9008B34F1 /* testpattern.DNG */ = {isa = PBXFileReference; lastKnownFileType = file; path = testpattern.DNG; sourceTree = "<group>"; };
+		6D6E74831530194A008B34F1 /* adobe.DNG */ = {isa = PBXFileReference; lastKnownFileType = file; path = adobe.DNG; sourceTree = "<group>"; };
+		6DD0FAD21530081100FA692C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A63D3C51152C33710035EDC0 /* libraw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libraw.a; sourceTree = "<group>"; };
+		A6729DC015389BDD004EB3FE /* NSMutableDictionary+ImageMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ImageMetadata.h"; sourceTree = "<group>"; };
+		A6729DC115389BDD004EB3FE /* NSMutableDictionary+ImageMetadata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ImageMetadata.m"; sourceTree = "<group>"; };
+		A6729DC315389C40004EB3FE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A6729DC515389C96004EB3FE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A6729DC71538A5FC004EB3FE /* Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Metadata.h; sourceTree = "<group>"; };
+		A6729DC81538A5FC004EB3FE /* Metadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Metadata.m; sourceTree = "<group>"; };
+		A6BE0C621528DCC000EE500E /* LibrawExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibrawExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BE0C661528DCC000EE500E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6BE0C681528DCC000EE500E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6BE0C6A1528DCC000EE500E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6BE0C6E1528DCC000EE500E /* LibrawExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibrawExample-Info.plist"; sourceTree = "<group>"; };
+		A6BE0C701528DCC000EE500E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6BE0C721528DCC000EE500E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6BE0C741528DCC000EE500E /* LibrawExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibrawExample-Prefix.pch"; sourceTree = "<group>"; };
+		A6BE0C751528DCC000EE500E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6BE0C761528DCC000EE500E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6BE0C781528DCC000EE500E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6BE0C791528DCC000EE500E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6BE0C9115296AE500EE500E /* RAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAW.h; sourceTree = "<group>"; };
+		A6BE0C9215296AE500EE500E /* RAW.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RAW.mm; sourceTree = "<group>"; };
+		A6BE0CEF1529716300EE500E /* libraw_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_alloc.h; path = libraw/libraw_alloc.h; sourceTree = "<group>"; };
+		A6BE0CF01529716300EE500E /* libraw_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_const.h; path = libraw/libraw_const.h; sourceTree = "<group>"; };
+		A6BE0CF11529716300EE500E /* libraw_datastream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_datastream.h; path = libraw/libraw_datastream.h; sourceTree = "<group>"; };
+		A6BE0CF21529716300EE500E /* libraw_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_internal.h; path = libraw/libraw_internal.h; sourceTree = "<group>"; };
+		A6BE0CF31529716300EE500E /* libraw_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_types.h; path = libraw/libraw_types.h; sourceTree = "<group>"; };
+		A6BE0CF41529716300EE500E /* libraw_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw_version.h; path = libraw/libraw_version.h; sourceTree = "<group>"; };
+		A6BE0CF51529716300EE500E /* libraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraw.h; path = libraw/libraw.h; sourceTree = "<group>"; };
+		A6BE0D0215298BF300EE500E /* RAW_NIKON_D1.NEF */ = {isa = PBXFileReference; lastKnownFileType = file; path = RAW_NIKON_D1.NEF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6BE0C5F1528DCC000EE500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6729DC615389C96004EB3FE /* ImageIO.framework in Frameworks */,
+				A6729DC415389C40004EB3FE /* AssetsLibrary.framework in Frameworks */,
+				A6BE0C671528DCC000EE500E /* UIKit.framework in Frameworks */,
+				A6BE0C691528DCC000EE500E /* Foundation.framework in Frameworks */,
+				A6BE0C6B1528DCC000EE500E /* CoreGraphics.framework in Frameworks */,
+				A63D3C52152C33710035EDC0 /* libraw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D64518415B9218300EA8D72 /* sample images */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E74831530194A008B34F1 /* adobe.DNG */,
+				6D6E7481153018B9008B34F1 /* testpattern.DNG */,
+				6D6E747F153015D3008B34F1 /* nikond200.NEF */,
+				6D6E747D15301550008B34F1 /* s3pro_007785.raf */,
+				6D6E747B153014B0008B34F1 /* RAW_LEICA_VLUX1.RAW */,
+				6D0F941F152C8AA9000B5129 /* canon-5DMarkIII.cr2 */,
+				A6BE0D0215298BF300EE500E /* RAW_NIKON_D1.NEF */,
+			);
+			name = "sample images";
+			sourceTree = "<group>";
+		};
+		A6BE0C571528DCC000EE500E = {
+			isa = PBXGroup;
+			children = (
+				A6BE0C6C1528DCC000EE500E /* LibrawExample */,
+				A6BE0C651528DCC000EE500E /* Frameworks */,
+				A6BE0C631528DCC000EE500E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6BE0C631528DCC000EE500E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE0C621528DCC000EE500E /* LibrawExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6BE0C651528DCC000EE500E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE0CF81529717C00EE500E /* libraw */,
+				A6729DC515389C96004EB3FE /* ImageIO.framework */,
+				A6729DC315389C40004EB3FE /* AssetsLibrary.framework */,
+				A6BE0C661528DCC000EE500E /* UIKit.framework */,
+				A6BE0C681528DCC000EE500E /* Foundation.framework */,
+				A6BE0C6A1528DCC000EE500E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6BE0C6C1528DCC000EE500E /* LibrawExample */ = {
+			isa = PBXGroup;
+			children = (
+				6DD0FAD21530081100FA692C /* Storyboard.storyboard */,
+				A6BE0C751528DCC000EE500E /* AppDelegate.h */,
+				A6BE0C761528DCC000EE500E /* AppDelegate.m */,
+				A6BE0C781528DCC000EE500E /* ViewController.h */,
+				A6BE0C791528DCC000EE500E /* ViewController.m */,
+				A6729DC015389BDD004EB3FE /* NSMutableDictionary+ImageMetadata.h */,
+				A6729DC115389BDD004EB3FE /* NSMutableDictionary+ImageMetadata.m */,
+				A6BE0C9115296AE500EE500E /* RAW.h */,
+				A6BE0C9215296AE500EE500E /* RAW.mm */,
+				A6729DC71538A5FC004EB3FE /* Metadata.h */,
+				A6729DC81538A5FC004EB3FE /* Metadata.m */,
+				6D64518415B9218300EA8D72 /* sample images */,
+				A6BE0C6D1528DCC000EE500E /* Supporting Files */,
+			);
+			path = LibrawExample;
+			sourceTree = "<group>";
+		};
+		A6BE0C6D1528DCC000EE500E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE0C6E1528DCC000EE500E /* LibrawExample-Info.plist */,
+				A6BE0C6F1528DCC000EE500E /* InfoPlist.strings */,
+				A6BE0C721528DCC000EE500E /* main.m */,
+				A6BE0C741528DCC000EE500E /* LibrawExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6BE0CF81529717C00EE500E /* libraw */ = {
+			isa = PBXGroup;
+			children = (
+				A63D3C51152C33710035EDC0 /* libraw.a */,
+				A6BE0CEF1529716300EE500E /* libraw_alloc.h */,
+				A6BE0CF01529716300EE500E /* libraw_const.h */,
+				A6BE0CF11529716300EE500E /* libraw_datastream.h */,
+				A6BE0CF21529716300EE500E /* libraw_internal.h */,
+				A6BE0CF31529716300EE500E /* libraw_types.h */,
+				A6BE0CF41529716300EE500E /* libraw_version.h */,
+				A6BE0CF51529716300EE500E /* libraw.h */,
+			);
+			name = libraw;
+			path = LibrawExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6BE0C611528DCC000EE500E /* LibrawExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BE0C831528DCC000EE500E /* Build configuration list for PBXNativeTarget "LibrawExample" */;
+			buildPhases = (
+				A6BE0C5E1528DCC000EE500E /* Sources */,
+				A6BE0C5F1528DCC000EE500E /* Frameworks */,
+				A6BE0C601528DCC000EE500E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibrawExample;
+			productName = LibrawExample;
+			productReference = A6BE0C621528DCC000EE500E /* LibrawExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BE0C591528DCC000EE500E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = nia;
+			};
+			buildConfigurationList = A6BE0C5C1528DCC000EE500E /* Build configuration list for PBXProject "LibrawExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6BE0C571528DCC000EE500E;
+			productRefGroup = A6BE0C631528DCC000EE500E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BE0C611528DCC000EE500E /* LibrawExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6BE0C601528DCC000EE500E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BE0C711528DCC000EE500E /* InfoPlist.strings in Resources */,
+				6D0F9420152C8AAC000B5129 /* canon-5DMarkIII.cr2 in Resources */,
+				A6BE0D0415298BF300EE500E /* RAW_NIKON_D1.NEF in Resources */,
+				6DD0FAD31530081100FA692C /* Storyboard.storyboard in Resources */,
+				6D6E747C153014B0008B34F1 /* RAW_LEICA_VLUX1.RAW in Resources */,
+				6D6E747E15301550008B34F1 /* s3pro_007785.raf in Resources */,
+				6D6E7480153015D3008B34F1 /* nikond200.NEF in Resources */,
+				6D6E7482153018B9008B34F1 /* testpattern.DNG in Resources */,
+				6D6E74841530194A008B34F1 /* adobe.DNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6BE0C5E1528DCC000EE500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BE0C731528DCC000EE500E /* main.m in Sources */,
+				A6BE0C771528DCC000EE500E /* AppDelegate.m in Sources */,
+				A6BE0C7A1528DCC000EE500E /* ViewController.m in Sources */,
+				A6BE0C9315296AE500EE500E /* RAW.mm in Sources */,
+				A6729DC91538A5FC004EB3FE /* Metadata.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6BE0C6F1528DCC000EE500E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6BE0C701528DCC000EE500E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6BE0C811528DCC000EE500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6BE0C821528DCC000EE500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6BE0C841528DCC000EE500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibrawExample/LibrawExample-Prefix.pch";
+				INFOPLIST_FILE = "LibrawExample/LibrawExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LibrawExample\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6BE0C851528DCC000EE500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibrawExample/LibrawExample-Prefix.pch";
+				INFOPLIST_FILE = "LibrawExample/LibrawExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LibrawExample\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6BE0C5C1528DCC000EE500E /* Build configuration list for PBXProject "LibrawExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BE0C811528DCC000EE500E /* Debug */,
+				A6BE0C821528DCC000EE500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BE0C831528DCC000EE500E /* Build configuration list for PBXNativeTarget "LibrawExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BE0C841528DCC000EE500E /* Debug */,
+				A6BE0C851528DCC000EE500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BE0C591528DCC000EE500E /* Project object */;
+}
